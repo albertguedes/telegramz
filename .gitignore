@@ -56,6 +56,7 @@ dist/
 # Temp
 *.tmp
 *.bak
+{
 
 # Zig cache
 .zig-cache/
