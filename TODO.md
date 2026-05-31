@@ -1,5 +1,13 @@
 # TODO - Future Enhancements
 
+## Completed ✓
+
+- [x] Basic search_messages with per-chat search
+- [x] Date filters for search (--min-date, --max-date)
+- [x] Auto-search saved messages when no --chat-id
+- [x] Comprehensive documentation (README, USER_MANUAL, TECHNICAL, CONTRIBUTING)
+- [x] Session persistence and config file support
+
 ## Distribution Channels
 - [ ] Launchpad PPA (Ubuntu/Debian)
 - [ ] Copr (Fedora)
@@ -21,6 +29,8 @@
 - [ ] Message reactions and replies
 - [ ] File/image upload/download
 - [ ] Group admin tools
+- [ ] Bot API fallback for per-chat search
+- [ ] Chronological listing of forwarded saved messages
 
 ## Documentation
 - [ ] man page (telegramz.1)
