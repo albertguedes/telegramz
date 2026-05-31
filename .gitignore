@@ -1,3 +1,61 @@
-.zig-cache/
+# Build artifacts
 zig-out/
 *.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# Dependencies
+.deps/
+.packages/
+
+# Project-specific (not for version control)
+SCOPE.md
+SCOPE.md~
+packages/
+proto/
+scripts/
+tests/
+
+# Session files (contain auth)
+*.session
+*.session-journal
+tdlib/
+
+# Config with credentials (use template)
+.env
+config/env
+.config/telegramz/config
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Release packages (build in dist/)
+dist/
+*.deb
+*.rpm
+*.pkg.tar.zst
+*.apk
+*.xbps
+*.txz
+
+# Temp
+*.tmp
+*.bak
+
+# Zig cache
+.zig-cache/
